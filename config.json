@@ -1,0 +1,12 @@
+{
+  "input_dir": "./images/input",
+  "output_dir": "./images/output",
+  "metrics_file": "metrics.csv",
+  "methods": {
+    "median_filter": { "kernel_size": 3 },
+    "sobel_filter": { "kernel_size": 3 },
+    "histogram_equalization": {},
+    "otsu_segmentation": {},
+    "erosion": { "kernel_size": 3, "iterations": 1 }
+  }
+}
